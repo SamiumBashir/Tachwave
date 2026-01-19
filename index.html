@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Wave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .hero{
+            background: url('./assets/hero-bg.png');
+            height: 600px;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="bg-[#412567]">
+    <header>
+        <nav class="flex justify-between items-center py-4 px-54 border-b-2 border-b-[#2A186C] bg-[#1A0B2E]">
+            <div>
+                <h1 class="text-white text-5xl font-extrabold">Tech<span class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span></h1>
+            </div>
+            <div class="text-white">
+                <ul class="flex gap-8 opacity-95 text-lg font-medium">
+                    <li>About</li>
+                    <li>Episods</li>
+                    <li>Host</li>
+                </ul>
+            </div>
+            <button class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-4 py-3 rounded-4xl text-white">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="size-80 bg-radial from-[#F7E93F] via-[#FB09B4] to-[#9100F8">
+                <img src="./assets/microphone.png">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
